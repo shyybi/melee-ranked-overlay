@@ -9,11 +9,13 @@ This is a simple overlay for SSBM ranked games. It displays the current game and
 3. Setup your Slippi's code in the config.json file
 4. Run the build.
 
-For windows: `npm run build:win`
-For linux: `npm run build:linux`
-For mac: `npm run build:mac`
+    For windows: `npm run build:win`    
+    For linux: `npm run build:linux`    
+    For mac: `npm run build:mac`    
 
 5. in the dist folder, you will find the installer for your OS.
+
+<img src="./doc/image.png">
 
 ## Contributing
 
