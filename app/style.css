@@ -1,0 +1,52 @@
+body {
+    color: #ffffff;
+    background-color: #2D313A;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(32, 142, 44);
+}
+.region-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    color: #ffffff;
+    fill: #ffffff; 
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.stat-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.stat-content span{
+    background-color: #1a1d22;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}

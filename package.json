@@ -1,0 +1,65 @@
+{
+  "name": "melee-ranked-overlay",
+  "version": "1.0.0",
+  "main": "main.js",
+  "homepage": "https://github.com/votre-nom-utilisateur/melee-ranked-overlay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-nom-utilisateur/melee-ranked-overlay.git"
+  },
+  "author": {
+    "name": "Shyybi",
+    "email": "charlotte.rod@outlook.com"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder build --win --linux --mac",
+    "build:win": "electron-builder build --win",
+    "build:linux": "electron-builder build --linux",
+    "build:mac": "electron-builder build --mac"
+  },
+  "keywords": ["SSBM", "overlay", "ranked"],
+  "license": "ISC",
+  "description": "SSBM Ranked Overlay - im depressive",
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "build": {
+    "appId": "me.ssbmrankedoverlay.shyybi",
+    "productName": "SSBM Ranked Overlay",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "./icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Utility",
+      "icon": "./icon.png",
+      "maintainer": "Shyybi <charlotte.rod@outlook.com>"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "./icon.icns"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "shyybi",
+      "repo": "melee-ranked-overlay"
+    }
+  }
+}
