@@ -8,7 +8,7 @@ This is a simple overlay for SSBM ranked games. It displays the current game and
 ## Installation
 
 1. Clone the repository
-2. Run the command " npm init "
+2. Run the command " npm install "
 3. Setup your Slippi's code in the config.json file
 4. Run the build.
 
