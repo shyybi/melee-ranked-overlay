@@ -16,7 +16,7 @@ This is a simple overlay for SSBM ranked games. It displays the current game and
     For linux: `npm run build:linux`    
     For mac: `npm run build:mac`    
 
-5. in the dist folder, you will find the installer for your OS. (the folder : `melee-rqnked-overlay/dist/*-unpacked/` )
+5. in the dist folder, you will find the installer for your OS. (the folder : `melee-ranked-overlay/dist/*-unpacked/` )
 
 <img src="./doc/image.png">
 
