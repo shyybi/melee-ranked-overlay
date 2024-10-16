@@ -1,6 +1,9 @@
 # SSBM Ranked Overlay
 
 This is a simple overlay for SSBM ranked games. It displays the current game and the players' ranks.
+##  Pre Installation 
+
+1. Download [NodeJS](https://nodejs.org/)
 
 ## Installation
 
